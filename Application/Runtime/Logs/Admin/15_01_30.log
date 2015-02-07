@@ -1,0 +1,1928 @@
+[ 2015-01-30T14:23:16+08:00 ] ::1 /encms/index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000160s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.044272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.044619s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000470s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017068s ]
+
+[ 2015-01-30T14:23:16+08:00 ] ::1 /encms/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001844s ]
+
+[ 2015-01-30T14:23:22+08:00 ] ::1 /encms/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+SQL: SHOW COLUMNS FROM `en_user` [ RunTime:0.0457s ]
+SQL: SELECT * FROM `en_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `en_user` SET `logintime`='1422599002',`loginip`='0.0.0.0' WHERE `id` = 1 [ RunTime:0.1074s ]
+
+[ 2015-01-30T14:23:22+08:00 ] ::1 /encms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001520s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000367s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035307s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001225s ]
+
+[ 2015-01-30T14:23:26+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001528s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.1382s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0168s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000311s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001906s ]
+
+[ 2015-01-30T14:23:29+08:00 ] ::1 /encms/index.php/Admin/Category/addCate/pid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+NOTIC: [8] Use of undefined constant intval - assumed 'intval' D:\wamp\www\encms\Application\Admin\Controller\CategoryController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: pid D:\wamp\www\encms\Application\Admin\Controller\CategoryController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000421s ]
+NOTIC: [8] Undefined variable: pid D:\wamp\www\encms\Application\Runtime\Cache\Admin\58e5ea442b3b179e7aaf406be55c3715.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001110s ]
+
+[ 2015-01-30T14:26:31+08:00 ] ::1 /encms/index.php/Admin/Category/addCate/pid/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001352s ]
+NOTIC: [8] Use of undefined constant intval - assumed 'intval' D:\wamp\www\encms\Application\Admin\Controller\CategoryController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011775s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001703s ]
+
+[ 2015-01-30T14:27:46+08:00 ] ::1 /encms/index.php/Admin/Category/runAddCate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002196s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0085s ]
+SQL: INSERT INTO `en_cate` (`name`,`sort`,`pid`) VALUES ('行业','100','0') [ RunTime:0.1262s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000424s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001104s ]
+
+[ 2015-01-30T14:27:47+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000531s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001689s ]
+
+[ 2015-01-30T14:29:01+08:00 ] ::1 /encms/index.php/Admin/Category/addCate/pid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001495s ]
+NOTIC: [8] Use of undefined constant intval - assumed 'intval' D:\wamp\www\encms\Application\Admin\Controller\CategoryController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002012s ]
+
+[ 2015-01-30T14:31:00+08:00 ] ::1 /encms/index.php/Admin/Category/addCate/pid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001614s ]
+NOTIC: [8] Use of undefined constant intval - assumed 'intval' D:\wamp\www\encms\Application\Admin\Controller\CategoryController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013145s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001257s ]
+
+[ 2015-01-30T14:31:10+08:00 ] ::1 /encms/index.php/Admin/Category/runAddCate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001282s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0114s ]
+SQL: INSERT INTO `en_cate` (`name`,`sort`,`pid`) VALUES ('硅藻土','100','0') [ RunTime:0.0968s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001410s ]
+
+[ 2015-01-30T14:31:11+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000402s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001763s ]
+
+[ 2015-01-30T14:35:38+08:00 ] ::1 /encms/index.php/Admin/Category/addCate/pid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001348s ]
+NOTIC: [8] Use of undefined constant intval - assumed 'intval' D:\wamp\www\encms\Application\Admin\Controller\CategoryController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001222s ]
+
+[ 2015-01-30T14:36:40+08:00 ] ::1 /encms/index.php/Admin/Category/addCate/pid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001212s ]
+
+[ 2015-01-30T14:36:45+08:00 ] ::1 /encms/index.php/Admin/Category/runAddCate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001759s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0091s ]
+SQL: INSERT INTO `en_cate` (`name`,`sort`,`pid`) VALUES ('墙壁','100','0') [ RunTime:0.0409s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001132s ]
+
+[ 2015-01-30T14:36:46+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001493s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000452s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001100s ]
+
+[ 2015-01-30T14:40:30+08:00 ] ::1 /encms/index.php/Admin/Category/addCate/pid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001415s ]
+
+[ 2015-01-30T14:40:34+08:00 ] ::1 /encms/index.php/Admin/Category/runAddCate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0078s ]
+SQL: INSERT INTO `en_cate` (`name`,`sort`,`pid`) VALUES ('花纹','100','2') [ RunTime:0.0450s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000402s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001116s ]
+
+[ 2015-01-30T14:40:35+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001219s ]
+
+[ 2015-01-30T14:50:44+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001497s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0005s ]
+
+[ 2015-01-30T14:50:46+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0004s ]
+
+[ 2015-01-30T14:50:50+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001639s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0004s ]
+
+[ 2015-01-30T14:52:51+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001250s ]
+
+[ 2015-01-30T14:55:15+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001788s ]
+
+[ 2015-01-30T14:55:20+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001449s ]
+
+[ 2015-01-30T14:56:35+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+
+[ 2015-01-30T14:57:09+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+
+[ 2015-01-30T15:00:05+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001663s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'encms.en_category' doesn't exist
+
+[ 2015-01-30T15:00:12+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+
+[ 2015-01-30T15:04:48+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001798s ]
+
+[ 2015-01-30T15:04:48+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001540s ]
+
+[ 2015-01-30T15:04:48+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+
+[ 2015-01-30T15:06:29+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001880s ]
+
+[ 2015-01-30T15:06:30+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+
+[ 2015-01-30T15:07:04+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001698s ]
+
+[ 2015-01-30T15:08:41+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'encms.en_category' doesn't exist
+
+[ 2015-01-30T15:08:46+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'encms.en_category' doesn't exist
+
+[ 2015-01-30T15:09:30+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+
+[ 2015-01-30T15:14:00+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001282s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'encms.en_category' doesn't exist
+
+[ 2015-01-30T15:14:38+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+
+[ 2015-01-30T15:14:43+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0003s ]
+
+[ 2015-01-30T15:14:54+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000882s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002927s ]
+
+[ 2015-01-30T15:15:01+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001629s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001479s ]
+
+[ 2015-01-30T15:43:25+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011185s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0004s ]
+NOTIC: D方法实例化没找到模型类Admin\Admin\Model\CategoryModel
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'encms.en_category' doesn't exist
+
+[ 2015-01-30T15:43:46+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001668s ]
+NOTIC: D方法实例化没找到模型类Admin\Admin\Model\CategoryModel
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'encms.en_category' doesn't exist
+
+[ 2015-01-30T15:44:01+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+NOTIC: D方法实例化没找到模型类Admin\Admin\Model\CategoryModel
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'encms.en_category' doesn't exist
+
+[ 2015-01-30T15:44:02+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002141s ]
+NOTIC: D方法实例化没找到模型类Admin\Admin\Model\CategoryModel
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'encms.en_category' doesn't exist
+
+[ 2015-01-30T16:09:56+08:00 ] ::1 /encms/index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001583s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000359s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019915s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017024s ]
+
+[ 2015-01-30T16:09:56+08:00 ] ::1 /encms/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001221s ]
+
+[ 2015-01-30T16:10:01+08:00 ] ::1 /encms/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+SQL: SHOW COLUMNS FROM `en_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `en_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `en_user` SET `logintime`='1422605401',`loginip`='0.0.0.0' WHERE `id` = 1 [ RunTime:0.0547s ]
+
+[ 2015-01-30T16:10:01+08:00 ] ::1 /encms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026547s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002488s ]
+
+[ 2015-01-30T16:10:07+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001248s ]
+
+[ 2015-01-30T16:10:45+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0003s ]
+
+[ 2015-01-30T16:10:46+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001168s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0003s ]
+
+[ 2015-01-30T16:10:51+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0004s ]
+
+[ 2015-01-30T16:11:04+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0004s ]
+
+[ 2015-01-30T16:11:19+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0004s ]
+
+[ 2015-01-30T16:11:27+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001996s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0005s ]
+NOTIC: [4096] Object of class Admin\Model\Category could not be converted to string D:\wamp\www\encms\Application\Admin\Controller\CategoryController.class.php 第 9 行.
+
+[ 2015-01-30T16:11:28+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001649s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0004s ]
+NOTIC: [4096] Object of class Admin\Model\Category could not be converted to string D:\wamp\www\encms\Application\Admin\Controller\CategoryController.class.php 第 9 行.
+
+[ 2015-01-30T16:11:28+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0003s ]
+NOTIC: [4096] Object of class Admin\Model\Category could not be converted to string D:\wamp\www\encms\Application\Admin\Controller\CategoryController.class.php 第 9 行.
+
+[ 2015-01-30T16:11:28+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0004s ]
+NOTIC: [4096] Object of class Admin\Model\Category could not be converted to string D:\wamp\www\encms\Application\Admin\Controller\CategoryController.class.php 第 9 行.
+
+[ 2015-01-30T16:14:34+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001268s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0004s ]
+
+[ 2015-01-30T16:28:23+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0005s ]
+
+[ 2015-01-30T16:28:37+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0004s ]
+
+[ 2015-01-30T16:28:39+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0004s ]
+
+[ 2015-01-30T16:31:09+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001288s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0006s ]
+
+[ 2015-01-30T16:33:02+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000364s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001097s ]
+
+[ 2015-01-30T16:33:28+08:00 ] ::1 /encms/index.php/Admin/Category/addCate/pid/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001169s ]
+
+[ 2015-01-30T16:33:34+08:00 ] ::1 /encms/index.php/Admin/Category/runAddCate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0104s ]
+SQL: INSERT INTO `en_cate` (`name`,`sort`,`pid`) VALUES ('花','100','7') [ RunTime:0.0712s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001161s ]
+
+[ 2015-01-30T16:33:43+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001136s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000412s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2015-01-30T16:33:44+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001254s ]
+
+[ 2015-01-30T16:33:53+08:00 ] ::1 /encms/index.php/Admin/Category/runAddCate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0085s ]
+SQL: INSERT INTO `en_cate` (`name`,`sort`,`pid`) VALUES ('壁虎','100','2') [ RunTime:0.0428s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001362s ]
+
+[ 2015-01-30T16:33:56+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001595s ]
+
+[ 2015-01-30T16:34:12+08:00 ] ::1 /encms/index.php/Admin/Category/sortCate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001296s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0086s ]
+SQL: UPDATE `en_cate` SET `sort`='1' WHERE `id` = 1 [ RunTime:0.0464s ]
+SQL: UPDATE `en_cate` SET `sort`='2' WHERE `id` = 3 [ RunTime:0.0417s ]
+SQL: UPDATE `en_cate` SET `sort`='3' WHERE `id` = 2 [ RunTime:0.0348s ]
+SQL: UPDATE `en_cate` SET `sort`='1' WHERE `id` = 7 [ RunTime:0.0417s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 8 [ RunTime:0.0793s ]
+SQL: UPDATE `en_cate` SET `sort`='2' WHERE `id` = 9 [ RunTime:0.0413s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 4 [ RunTime:0.0350s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 5 [ RunTime:0.0415s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 6 [ RunTime:0.0346s ]
+
+[ 2015-01-30T16:34:24+08:00 ] ::1 /encms/index.php/Admin/Category/sortCate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001203s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0085s ]
+SQL: UPDATE `en_cate` SET `sort`='1' WHERE `id` = 1 [ RunTime:0.0310s ]
+SQL: UPDATE `en_cate` SET `sort`='2' WHERE `id` = 3 [ RunTime:0.0879s ]
+SQL: UPDATE `en_cate` SET `sort`='3' WHERE `id` = 2 [ RunTime:0.0416s ]
+SQL: UPDATE `en_cate` SET `sort`='1' WHERE `id` = 7 [ RunTime:0.0350s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 8 [ RunTime:0.0415s ]
+SQL: UPDATE `en_cate` SET `sort`='32' WHERE `id` = 9 [ RunTime:0.0351s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 4 [ RunTime:0.0416s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 5 [ RunTime:0.0350s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 6 [ RunTime:0.0416s ]
+
+[ 2015-01-30T16:34:42+08:00 ] ::1 /encms/index.php/Admin/Category/sortCate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0097s ]
+SQL: UPDATE `en_cate` SET `sort`='1' WHERE `id` = 1 [ RunTime:0.0374s ]
+SQL: UPDATE `en_cate` SET `sort`='2' WHERE `id` = 3 [ RunTime:0.0421s ]
+SQL: UPDATE `en_cate` SET `sort`='3' WHERE `id` = 2 [ RunTime:0.0343s ]
+SQL: UPDATE `en_cate` SET `sort`='10' WHERE `id` = 7 [ RunTime:0.0421s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 8 [ RunTime:0.0345s ]
+SQL: UPDATE `en_cate` SET `sort`='20' WHERE `id` = 9 [ RunTime:0.0418s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 4 [ RunTime:0.0677s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 5 [ RunTime:0.0421s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 6 [ RunTime:0.0344s ]
+
+[ 2015-01-30T16:36:22+08:00 ] ::1 /encms/index.php/Admin/Category/sortCate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001688s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0087s ]
+SQL: UPDATE `en_cate` SET `sort`='1' WHERE `id` = 1 [ RunTime:0.1635s ]
+SQL: UPDATE `en_cate` SET `sort`='2' WHERE `id` = 3 [ RunTime:0.0461s ]
+SQL: UPDATE `en_cate` SET `sort`='3' WHERE `id` = 2 [ RunTime:0.0410s ]
+SQL: UPDATE `en_cate` SET `sort`='1' WHERE `id` = 7 [ RunTime:0.0663s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 8 [ RunTime:0.0340s ]
+SQL: UPDATE `en_cate` SET `sort`='2' WHERE `id` = 9 [ RunTime:0.0803s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 4 [ RunTime:0.0406s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 5 [ RunTime:0.0420s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 6 [ RunTime:0.0345s ]
+
+[ 2015-01-30T16:36:22+08:00 ] ::1 /encms/index.php/Admin/Category/sortCate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0081s ]
+SQL: UPDATE `en_cate` SET `sort`='1' WHERE `id` = 1 [ RunTime:0.0474s ]
+SQL: UPDATE `en_cate` SET `sort`='2' WHERE `id` = 3 [ RunTime:0.0417s ]
+SQL: UPDATE `en_cate` SET `sort`='3' WHERE `id` = 2 [ RunTime:0.0683s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 7 [ RunTime:0.0414s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 8 [ RunTime:0.0352s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 9 [ RunTime:0.0415s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 4 [ RunTime:0.0352s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 5 [ RunTime:0.0416s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 6 [ RunTime:0.0350s ]
+
+[ 2015-01-30T16:36:33+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2015-01-30T16:36:33+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001903s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001616s ]
+
+[ 2015-01-30T16:36:34+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000983s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001187s ]
+
+[ 2015-01-30T16:36:34+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001754s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016598s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001738s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001904s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001097s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001266s ]
+
+[ 2015-01-30T16:36:34+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001439s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001251s ]
+
+[ 2015-01-30T16:36:39+08:00 ] ::1 /encms/index.php/Admin/Category/sortCate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0083s ]
+SQL: UPDATE `en_cate` SET `sort`='1' WHERE `id` = 1 [ RunTime:0.0455s ]
+SQL: UPDATE `en_cate` SET `sort`='2' WHERE `id` = 3 [ RunTime:0.0345s ]
+SQL: UPDATE `en_cate` SET `sort`='3' WHERE `id` = 2 [ RunTime:0.0420s ]
+SQL: UPDATE `en_cate` SET `sort`='1' WHERE `id` = 7 [ RunTime:0.0346s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 8 [ RunTime:0.0423s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 9 [ RunTime:0.0677s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 4 [ RunTime:0.0421s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 5 [ RunTime:0.0345s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 6 [ RunTime:0.0423s ]
+
+[ 2015-01-30T16:37:06+08:00 ] ::1 /encms/index.php/Admin/Category/sortCate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0101s ]
+SQL: UPDATE `en_cate` SET `sort`='1' WHERE `id` = 1 [ RunTime:0.0722s ]
+SQL: UPDATE `en_cate` SET `sort`='2' WHERE `id` = 3 [ RunTime:0.0414s ]
+SQL: UPDATE `en_cate` SET `sort`='3' WHERE `id` = 2 [ RunTime:0.0353s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 7 [ RunTime:0.0414s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 8 [ RunTime:0.0352s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 9 [ RunTime:0.0772s ]
+SQL: UPDATE `en_cate` SET `sort`='5' WHERE `id` = 4 [ RunTime:0.0421s ]
+SQL: UPDATE `en_cate` SET `sort`='6' WHERE `id` = 5 [ RunTime:0.0345s ]
+SQL: UPDATE `en_cate` SET `sort`='7' WHERE `id` = 6 [ RunTime:0.0422s ]
+
+[ 2015-01-30T16:37:07+08:00 ] ::1 /encms/index.php/Admin/Category/sortCate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0080s ]
+SQL: UPDATE `en_cate` SET `sort`='1' WHERE `id` = 1 [ RunTime:0.0507s ]
+SQL: UPDATE `en_cate` SET `sort`='2' WHERE `id` = 3 [ RunTime:0.0411s ]
+SQL: UPDATE `en_cate` SET `sort`='3' WHERE `id` = 2 [ RunTime:0.0352s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 7 [ RunTime:0.0417s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 8 [ RunTime:0.0460s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 9 [ RunTime:0.0415s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 4 [ RunTime:0.0351s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 5 [ RunTime:0.0415s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 6 [ RunTime:0.0352s ]
+
+[ 2015-01-30T16:37:08+08:00 ] ::1 /encms/index.php/Admin/Category/sortCate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0088s ]
+SQL: UPDATE `en_cate` SET `sort`='1' WHERE `id` = 1 [ RunTime:0.0444s ]
+SQL: UPDATE `en_cate` SET `sort`='2' WHERE `id` = 3 [ RunTime:0.0343s ]
+SQL: UPDATE `en_cate` SET `sort`='3' WHERE `id` = 2 [ RunTime:0.0423s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 7 [ RunTime:0.0345s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 8 [ RunTime:0.0423s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 9 [ RunTime:0.0337s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 4 [ RunTime:0.0424s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 5 [ RunTime:0.0344s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 6 [ RunTime:0.0420s ]
+
+[ 2015-01-30T16:37:13+08:00 ] ::1 /encms/index.php/Admin/Category/sortCate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001607s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0080s ]
+SQL: UPDATE `en_cate` SET `sort`='1' WHERE `id` = 1 [ RunTime:0.0423s ]
+SQL: UPDATE `en_cate` SET `sort`='2' WHERE `id` = 3 [ RunTime:0.0419s ]
+SQL: UPDATE `en_cate` SET `sort`='3' WHERE `id` = 2 [ RunTime:0.0347s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 7 [ RunTime:0.0419s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 8 [ RunTime:0.0682s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 9 [ RunTime:0.0417s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 4 [ RunTime:0.0350s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 5 [ RunTime:0.0417s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 6 [ RunTime:0.0665s ]
+
+[ 2015-01-30T16:37:21+08:00 ] ::1 /encms/index.php/Admin/Category/sortCate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0075s ]
+SQL: UPDATE `en_cate` SET `sort`='1' WHERE `id` = 1 [ RunTime:0.0859s ]
+SQL: UPDATE `en_cate` SET `sort`='3' WHERE `id` = 3 [ RunTime:0.0344s ]
+SQL: UPDATE `en_cate` SET `sort`='2' WHERE `id` = 2 [ RunTime:0.0421s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 7 [ RunTime:0.0344s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 8 [ RunTime:0.0422s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 9 [ RunTime:0.0345s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 4 [ RunTime:0.0418s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 5 [ RunTime:0.0344s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 6 [ RunTime:0.0992s ]
+
+[ 2015-01-30T16:37:31+08:00 ] ::1 /encms/index.php/Admin/Category/sortCate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001356s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0086s ]
+SQL: UPDATE `en_cate` SET `sort`='1' WHERE `id` = 1 [ RunTime:0.0787s ]
+SQL: UPDATE `en_cate` SET `sort`='3' WHERE `id` = 3 [ RunTime:0.0345s ]
+SQL: UPDATE `en_cate` SET `sort`='2' WHERE `id` = 2 [ RunTime:0.0420s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 7 [ RunTime:0.0345s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 8 [ RunTime:0.0421s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 9 [ RunTime:0.0347s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 4 [ RunTime:0.0412s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 5 [ RunTime:0.0345s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 6 [ RunTime:0.0538s ]
+
+[ 2015-01-30T16:41:05+08:00 ] ::1 /encms/index.php/Admin/Category/sortCate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001688s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0092s ]
+SQL: UPDATE `en_cate` SET `sort`='1' WHERE `id` = 1 [ RunTime:0.0413s ]
+SQL: UPDATE `en_cate` SET `sort`='2' WHERE `id` = 3 [ RunTime:0.0659s ]
+SQL: UPDATE `en_cate` SET `sort`='3' WHERE `id` = 2 [ RunTime:0.0418s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 7 [ RunTime:0.0346s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 8 [ RunTime:0.0419s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 9 [ RunTime:0.0340s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 4 [ RunTime:0.0420s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 5 [ RunTime:0.0346s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 6 [ RunTime:0.0420s ]
+
+[ 2015-01-30T16:41:07+08:00 ] ::1 /encms/index.php/Admin/Category/sortCate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0087s ]
+SQL: UPDATE `en_cate` SET `sort`='1' WHERE `id` = 1 [ RunTime:0.0347s ]
+SQL: UPDATE `en_cate` SET `sort`='2' WHERE `id` = 3 [ RunTime:0.0413s ]
+SQL: UPDATE `en_cate` SET `sort`='3' WHERE `id` = 2 [ RunTime:0.0574s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 7 [ RunTime:0.0414s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 8 [ RunTime:0.0351s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 9 [ RunTime:0.0412s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 4 [ RunTime:0.0353s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 5 [ RunTime:0.0413s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 6 [ RunTime:0.0670s ]
+
+[ 2015-01-30T16:43:42+08:00 ] ::1 /encms/index.php/Admin/Category/sortCate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001488s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0086s ]
+
+[ 2015-01-30T16:43:43+08:00 ] ::1 /encms/index.php/Admin/Category/sortCate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0073s ]
+
+[ 2015-01-30T16:44:29+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001326s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001868s ]
+
+[ 2015-01-30T16:44:30+08:00 ] ::1 /encms/index.php/Admin/Category/sortCate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001535s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0081s ]
+
+[ 2015-01-30T16:44:31+08:00 ] ::1 /encms/index.php/Admin/Category/sortCate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0082s ]
+
+[ 2015-01-30T16:44:32+08:00 ] ::1 /encms/index.php/Admin/Category/sortCate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0074s ]
+
+[ 2015-01-30T16:44:39+08:00 ] ::1 /encms/index.php/Admin/Category/sortADD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001850s ]
+ERR: 非法操作:sortADD
+
+[ 2015-01-30T16:44:43+08:00 ] ::1 /encms/index.php/Admin/Category/sortAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001537s ]
+ERR: 非法操作:sortAdd
+
+[ 2015-01-30T16:44:46+08:00 ] ::1 /encms/index.php/Admin/Category/sortADD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+ERR: 非法操作:sortADD
+
+[ 2015-01-30T16:44:49+08:00 ] ::1 /encms/index.php/Admin/Category/sortCate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0088s ]
+
+[ 2015-01-30T16:45:23+08:00 ] ::1 /encms/index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001206s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001383s ]
+
+[ 2015-01-30T16:45:23+08:00 ] ::1 /encms/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001651s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001456s ]
+
+[ 2015-01-30T16:45:27+08:00 ] ::1 /encms/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+SQL: SHOW COLUMNS FROM `en_user` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `en_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `en_user` SET `logintime`='1422607527',`loginip`='0.0.0.0' WHERE `id` = 1 [ RunTime:0.0436s ]
+
+[ 2015-01-30T16:45:27+08:00 ] ::1 /encms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001635s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018987s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001797s ]
+
+[ 2015-01-30T16:45:30+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000982s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001207s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001258s ]
+
+[ 2015-01-30T16:45:44+08:00 ] ::1 /encms/index.php/Admin/Category/sortCate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0108s ]
+SQL: UPDATE `en_cate` SET `sort`='1' WHERE `id` = 1 [ RunTime:0.0454s ]
+SQL: UPDATE `en_cate` SET `sort`='2' WHERE `id` = 3 [ RunTime:0.0418s ]
+SQL: UPDATE `en_cate` SET `sort`='3' WHERE `id` = 2 [ RunTime:0.0341s ]
+SQL: UPDATE `en_cate` SET `sort`='2' WHERE `id` = 7 [ RunTime:0.0992s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 8 [ RunTime:0.0410s ]
+SQL: UPDATE `en_cate` SET `sort`='1' WHERE `id` = 9 [ RunTime:0.0354s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 4 [ RunTime:0.0410s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 5 [ RunTime:0.0355s ]
+SQL: UPDATE `en_cate` SET `sort`='100' WHERE `id` = 6 [ RunTime:0.0412s ]
+
+[ 2015-01-30T16:45:44+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016513s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001049s ]
+
+[ 2015-01-30T18:32:14+08:00 ] ::1 /encms/index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.041459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.028383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028767s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.198424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.198599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.023474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.023627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016456s ]
+
+[ 2015-01-30T18:32:15+08:00 ] ::1 /encms/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001018s ]
+
+[ 2015-01-30T18:32:16+08:00 ] ::1 /encms/index.php/Admin/Login/verify/0.1446110513061285
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001266s ]
+
+[ 2015-01-30T18:32:18+08:00 ] ::1 /encms/index.php/Admin/Login/verify/0.633531620260328
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001138s ]
+
+[ 2015-01-30T18:32:21+08:00 ] ::1 /encms/index.php/Admin/Login/verify/0.5278621297329664
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001120s ]
+
+[ 2015-01-30T18:32:21+08:00 ] ::1 /encms/index.php/Admin/Login/verify/0.5301771305967122
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001267s ]
+
+[ 2015-01-30T18:32:22+08:00 ] ::1 /encms/index.php/Admin/Login/verify/0.8819297230802476
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000930s ]
+
+[ 2015-01-30T18:32:23+08:00 ] ::1 /encms/index.php/Admin/Login/verify/0.6088428983930498
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2015-01-30T18:32:25+08:00 ] ::1 /encms/index.php/Admin/Login/verify/0.5964371475856751
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000931s ]
+
+[ 2015-01-30T18:32:26+08:00 ] ::1 /encms/index.php/Admin/Login/verify/0.8365062675438821
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2015-01-30T18:32:32+08:00 ] ::1 /encms/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+SQL: SHOW COLUMNS FROM `en_user` [ RunTime:0.3158s ]
+SQL: SELECT * FROM `en_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0434s ]
+SQL: UPDATE `en_user` SET `logintime`='1422613952',`loginip`='0.0.0.0' WHERE `id` = 1 [ RunTime:0.0638s ]
+
+[ 2015-01-30T18:32:33+08:00 ] ::1 /encms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000310s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001243s ]
+
+[ 2015-01-30T18:32:35+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0722s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001906s ]
+
+[ 2015-01-30T18:32:39+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001585s ]
+
+[ 2015-01-30T19:04:19+08:00 ] ::1 /encms/index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001028s ]
+
+[ 2015-01-30T19:04:20+08:00 ] ::1 /encms/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001738s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003386s ]
+
+[ 2015-01-30T19:04:21+08:00 ] ::1 /encms/index.php/Admin/Login/verify/0.6533080637454987
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002021s ]
+
+[ 2015-01-30T19:04:24+08:00 ] ::1 /encms/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+SQL: SHOW COLUMNS FROM `en_user` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `en_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `en_user` SET `logintime`='1422615864',`loginip`='0.0.0.0' WHERE `id` = 1 [ RunTime:0.1509s ]
+
+[ 2015-01-30T19:04:24+08:00 ] ::1 /encms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001202s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001362s ]
+
+[ 2015-01-30T19:04:25+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' D:\wamp\www\encms\Application\Admin\Controller\CategoryController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+NOTIC: [8] Undefined index: html D:\wamp\www\encms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 19 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\encms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 20 行.
+NOTIC: [8] Undefined index: html D:\wamp\www\encms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 19 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\encms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 20 行.
+NOTIC: [8] Undefined index: html D:\wamp\www\encms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 19 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\encms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 20 行.
+NOTIC: [8] Undefined index: html D:\wamp\www\encms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 19 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\encms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 20 行.
+NOTIC: [8] Undefined index: html D:\wamp\www\encms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 19 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\encms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 20 行.
+NOTIC: [8] Undefined index: html D:\wamp\www\encms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 19 行.
+NOTIC: [8] Undefined index: level D:\wamp\www\encms\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001853s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002401s ]
+
+[ 2015-01-30T19:05:03+08:00 ] ::1 /encms/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001205s ]
+

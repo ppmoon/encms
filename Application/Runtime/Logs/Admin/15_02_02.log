@@ -1,0 +1,3351 @@
+[ 2015-02-02T14:28:46+08:00 ] ::1 /encms/index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.088462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001499s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000703s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001134s ]
+
+[ 2015-02-02T14:28:46+08:00 ] ::1 /encms/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003954s ]
+
+[ 2015-02-02T14:28:50+08:00 ] ::1 /encms/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `en_user` [ RunTime:0.0867s ]
+SQL: SELECT * FROM `en_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `en_user` SET `logintime`='1422858530',`loginip`='0.0.0.0' WHERE `id` = 1 [ RunTime:0.0386s ]
+
+[ 2015-02-02T14:28:50+08:00 ] ::1 /encms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000746s ]
+
+[ 2015-02-02T14:29:18+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001713s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0680s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sort' in 'order clause'
+
+[ 2015-02-02T14:29:44+08:00 ] ::1 /encms/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000814s ]
+
+[ 2015-02-02T14:29:46+08:00 ] ::1 /encms/index.php/Admin/Login/verify/0.9549792585894465
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001146s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001416s ]
+
+[ 2015-02-02T14:29:47+08:00 ] ::1 /encms/index.php/Admin/Login/verify/0.3889002276118845
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001122s ]
+
+[ 2015-02-02T14:29:47+08:00 ] ::1 /encms/index.php/Admin/Login/verify/0.3709730450063944
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2015-02-02T14:29:51+08:00 ] ::1 /encms/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+SQL: SHOW COLUMNS FROM `en_user` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `en_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `en_user` SET `logintime`='1422858591',`loginip`='0.0.0.0' WHERE `id` = 1 [ RunTime:0.0439s ]
+
+[ 2015-02-02T14:29:51+08:00 ] ::1 /encms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2015-02-02T14:29:52+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `en_blog` ORDER BY id ASC  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2015-02-02T14:29:58+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001540s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `en_blog` ORDER BY id ASC  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001117s ]
+
+[ 2015-02-02T15:01:06+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `en_blog` ORDER BY id ASC  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001163s ]
+
+[ 2015-02-02T15:06:42+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+NOTIC: [8] Use of undefined constant BLONGS_TO - assumed 'BLONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0083s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001068s ]
+
+[ 2015-02-02T15:07:05+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'encms.en_blog_relation_model' doesn't exist
+
+[ 2015-02-02T15:07:15+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+NOTIC: [8] Use of undefined constant BLONGS_TO - assumed 'BLONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0064s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2015-02-02T15:07:16+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+NOTIC: [8] Use of undefined constant BLONGS_TO - assumed 'BLONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0064s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001014s ]
+
+[ 2015-02-02T15:07:16+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+NOTIC: [8] Use of undefined constant BLONGS_TO - assumed 'BLONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0047s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000916s ]
+
+[ 2015-02-02T15:07:16+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+NOTIC: [8] Use of undefined constant BLONGS_TO - assumed 'BLONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0054s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000916s ]
+
+[ 2015-02-02T15:08:21+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001203s ]
+
+[ 2015-02-02T15:09:12+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+
+[ 2015-02-02T15:09:53+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+NOTIC: [8] Use of undefined constant BLONGS_TO - assumed 'BLONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0242s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001115s ]
+
+[ 2015-02-02T15:13:54+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+NOTIC: [8] Use of undefined constant BLONGS_TO - assumed 'BLONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0067s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001257s ]
+
+[ 2015-02-02T15:13:54+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+NOTIC: [8] Use of undefined constant BLONGS_TO - assumed 'BLONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2015-02-02T15:13:55+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001475s ]
+NOTIC: [8] Use of undefined constant BLONGS_TO - assumed 'BLONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0059s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001137s ]
+
+[ 2015-02-02T15:13:55+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+NOTIC: [8] Use of undefined constant BLONGS_TO - assumed 'BLONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0046s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000902s ]
+
+[ 2015-02-02T15:13:55+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+NOTIC: [8] Use of undefined constant BLONGS_TO - assumed 'BLONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0064s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2015-02-02T15:13:55+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+NOTIC: [8] Use of undefined constant BLONGS_TO - assumed 'BLONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0046s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001207s ]
+
+[ 2015-02-02T15:13:56+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+NOTIC: [8] Use of undefined constant BLONGS_TO - assumed 'BLONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0063s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2015-02-02T15:14:13+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+NOTIC: [8] Use of undefined constant BLONGS_TO - assumed 'BLONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0061s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000934s ]
+
+[ 2015-02-02T15:14:13+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+NOTIC: [8] Use of undefined constant BLONGS_TO - assumed 'BLONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0053s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000947s ]
+
+[ 2015-02-02T15:14:13+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+NOTIC: [8] Use of undefined constant BLONGS_TO - assumed 'BLONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2015-02-02T15:14:13+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+NOTIC: [8] Use of undefined constant BLONGS_TO - assumed 'BLONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0047s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2015-02-02T15:14:14+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+NOTIC: [8] Use of undefined constant BLONGS_TO - assumed 'BLONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0064s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000955s ]
+
+[ 2015-02-02T15:14:28+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+NOTIC: [8] Use of undefined constant BLONGS_TO - assumed 'BLONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0072s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2015-02-02T15:14:28+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+NOTIC: [8] Use of undefined constant BLONGS_TO - assumed 'BLONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000927s ]
+
+[ 2015-02-02T15:14:28+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+NOTIC: [8] Use of undefined constant BLONGS_TO - assumed 'BLONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2015-02-02T15:14:28+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+NOTIC: [8] Use of undefined constant BLONGS_TO - assumed 'BLONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000981s ]
+
+[ 2015-02-02T15:14:29+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+NOTIC: [8] Use of undefined constant BLONGS_TO - assumed 'BLONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0063s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000930s ]
+
+[ 2015-02-02T15:14:29+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+NOTIC: [8] Use of undefined constant BLONGS_TO - assumed 'BLONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0046s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000902s ]
+
+[ 2015-02-02T15:14:30+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+NOTIC: [8] Use of undefined constant BLONGS_TO - assumed 'BLONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0059s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000896s ]
+
+[ 2015-02-02T15:14:39+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+NOTIC: [8] Use of undefined constant BLONGS_TO - assumed 'BLONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0109s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001379s ]
+
+[ 2015-02-02T15:14:51+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+NOTIC: [8] Use of undefined constant BLONGS_TO - assumed 'BLONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0072s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000957s ]
+
+[ 2015-02-02T15:14:52+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+NOTIC: [8] Use of undefined constant BLONGS_TO - assumed 'BLONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2015-02-02T15:17:47+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+
+[ 2015-02-02T15:18:14+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0065s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'blogrelation_id' in 'where clause'
+
+[ 2015-02-02T15:18:20+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+NOTIC: [8] Use of undefined constant HAS_ONE - assumed 'HAS_ONE' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0076s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000973s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001146s ]
+
+[ 2015-02-02T15:19:46+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+NOTIC: [8] Use of undefined constant BlONGS_TO - assumed 'BlONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0064s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000899s ]
+
+[ 2015-02-02T15:19:47+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Use of undefined constant BlONGS_TO - assumed 'BlONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0067s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000922s ]
+
+[ 2015-02-02T15:19:47+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001479s ]
+NOTIC: [8] Use of undefined constant BlONGS_TO - assumed 'BlONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0063s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001387s ]
+
+[ 2015-02-02T15:19:47+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001715s ]
+NOTIC: [8] Use of undefined constant BlONGS_TO - assumed 'BlONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0092s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001620s ]
+
+[ 2015-02-02T15:19:47+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001518s ]
+NOTIC: [8] Use of undefined constant BlONGS_TO - assumed 'BlONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0061s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001722s ]
+
+[ 2015-02-02T15:19:48+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+NOTIC: [8] Use of undefined constant BlONGS_TO - assumed 'BlONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0095s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001013s ]
+
+[ 2015-02-02T15:19:48+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001648s ]
+NOTIC: [8] Use of undefined constant BlONGS_TO - assumed 'BlONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0074s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001075s ]
+
+[ 2015-02-02T15:19:48+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+NOTIC: [8] Use of undefined constant BlONGS_TO - assumed 'BlONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0089s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001105s ]
+
+[ 2015-02-02T15:19:48+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+NOTIC: [8] Use of undefined constant BlONGS_TO - assumed 'BlONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001265s ]
+
+[ 2015-02-02T15:19:48+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001435s ]
+NOTIC: [8] Use of undefined constant BlONGS_TO - assumed 'BlONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001304s ]
+
+[ 2015-02-02T15:19:48+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001426s ]
+NOTIC: [8] Use of undefined constant BlONGS_TO - assumed 'BlONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0052s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000947s ]
+
+[ 2015-02-02T15:20:23+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+NOTIC: [8] Use of undefined constant BELONGS_TO - assumed 'BELONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000992s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001214s ]
+
+[ 2015-02-02T15:20:24+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001422s ]
+NOTIC: [8] Use of undefined constant BELONGS_TO - assumed 'BELONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0067s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001443s ]
+
+[ 2015-02-02T15:21:32+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+NOTIC: [8] Use of undefined constant BELONGS_TO - assumed 'BELONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'encms.en_en_cate' doesn't exist
+
+[ 2015-02-02T15:21:44+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+NOTIC: [8] Use of undefined constant BELONGS_TO - assumed 'BELONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0071s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2015-02-02T15:22:09+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+NOTIC: [8] Use of undefined constant BELONGS_TO - assumed 'BELONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001032s ]
+
+[ 2015-02-02T15:22:10+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+NOTIC: [8] Use of undefined constant BELONGS_TO - assumed 'BELONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2015-02-02T15:22:10+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001804s ]
+NOTIC: [8] Use of undefined constant BELONGS_TO - assumed 'BELONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000960s ]
+
+[ 2015-02-02T15:22:11+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+NOTIC: [8] Use of undefined constant BELONGS_TO - assumed 'BELONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000951s ]
+
+[ 2015-02-02T15:22:18+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+NOTIC: [8] Use of undefined constant BELONGS_TO - assumed 'BELONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0062s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000927s ]
+
+[ 2015-02-02T15:24:32+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+NOTIC: [8] Use of undefined constant BELONGS_TO - assumed 'BELONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0062s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001231s ]
+
+[ 2015-02-02T15:25:24+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+NOTIC: [8] Use of undefined constant BELONGS_TO - assumed 'BELONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0085s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001376s ]
+
+[ 2015-02-02T15:25:25+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+NOTIC: [8] Use of undefined constant BELONGS_TO - assumed 'BELONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0066s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001130s ]
+
+[ 2015-02-02T15:25:25+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+NOTIC: [8] Use of undefined constant BELONGS_TO - assumed 'BELONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0053s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2015-02-02T15:25:25+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+NOTIC: [8] Use of undefined constant BELONGS_TO - assumed 'BELONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0054s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000899s ]
+
+[ 2015-02-02T15:25:25+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+NOTIC: [8] Use of undefined constant BELONGS_TO - assumed 'BELONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0045s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001071s ]
+
+[ 2015-02-02T15:41:04+08:00 ] ::1 /encms/index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001279s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040927s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001437s ]
+
+[ 2015-02-02T15:41:04+08:00 ] ::1 /encms/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001894s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001381s ]
+
+[ 2015-02-02T15:41:08+08:00 ] ::1 /encms/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001521s ]
+SQL: SHOW COLUMNS FROM `en_user` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `en_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `en_user` SET `logintime`='1422862868',`loginip`='0.0.0.0' WHERE `id` = 1 [ RunTime:0.0346s ]
+
+[ 2015-02-02T15:41:08+08:00 ] ::1 /encms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001586s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001267s ]
+
+[ 2015-02-02T15:41:10+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001742s ]
+
+[ 2015-02-02T15:41:37+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+NOTIC: [8] Use of undefined constant BELONGS_TO - assumed 'BELONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0268s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001514s ]
+
+[ 2015-02-02T15:41:40+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001404s ]
+NOTIC: [8] Use of undefined constant BELONGS_TO - assumed 'BELONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0072s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001441s ]
+
+[ 2015-02-02T15:41:44+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001518s ]
+NOTIC: [8] Use of undefined constant BELONGS_TO - assumed 'BELONGS_TO' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0072s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001463s ]
+
+[ 2015-02-02T15:46:53+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+NOTIC: [8] Use of undefined constant HAS_ONE - assumed 'HAS_ONE' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0062s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001389s ]
+
+[ 2015-02-02T15:46:54+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+NOTIC: [8] Use of undefined constant HAS_ONE - assumed 'HAS_ONE' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0072s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001997s ]
+
+[ 2015-02-02T15:46:54+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001470s ]
+NOTIC: [8] Use of undefined constant HAS_ONE - assumed 'HAS_ONE' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0048s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001389s ]
+
+[ 2015-02-02T15:46:55+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001364s ]
+NOTIC: [8] Use of undefined constant HAS_ONE - assumed 'HAS_ONE' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0231s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001484s ]
+
+[ 2015-02-02T15:46:55+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001202s ]
+NOTIC: [8] Use of undefined constant HAS_ONE - assumed 'HAS_ONE' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0058s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001195s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001343s ]
+
+[ 2015-02-02T15:46:55+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001369s ]
+NOTIC: [8] Use of undefined constant HAS_ONE - assumed 'HAS_ONE' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0042s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001698s ]
+
+[ 2015-02-02T15:46:55+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+NOTIC: [8] Use of undefined constant HAS_ONE - assumed 'HAS_ONE' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0045s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001505s ]
+
+[ 2015-02-02T15:47:00+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001707s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0073s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001876s ]
+
+[ 2015-02-02T15:47:01+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001855s ]
+
+[ 2015-02-02T15:47:01+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0043s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001534s ]
+
+[ 2015-02-02T15:47:01+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001441s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0044s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001609s ]
+
+[ 2015-02-02T15:47:01+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001405s ]
+
+[ 2015-02-02T15:47:02+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001239s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001490s ]
+
+[ 2015-02-02T15:47:07+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001497s ]
+NOTIC: [8] Use of undefined constant HAS_ONE - assumed 'HAS_ONE' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0079s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001592s ]
+
+[ 2015-02-02T15:48:37+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+NOTIC: [8] Use of undefined constant HAS_ONE - assumed 'HAS_ONE' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0264s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0062s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001460s ]
+
+[ 2015-02-02T15:48:37+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+NOTIC: [8] Use of undefined constant HAS_ONE - assumed 'HAS_ONE' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001455s ]
+
+[ 2015-02-02T15:49:01+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001279s ]
+NOTIC: [8] Use of undefined constant HAS_ONE - assumed 'HAS_ONE' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0067s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001412s ]
+
+[ 2015-02-02T15:49:03+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+NOTIC: [8] Use of undefined constant HAS_ONE - assumed 'HAS_ONE' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001433s ]
+
+[ 2015-02-02T15:49:07+08:00 ] ::1 /encms/index.php/Admin/Blog/blog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001354s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000317s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001195s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001340s ]
+
+[ 2015-02-02T15:49:10+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+NOTIC: [8] Use of undefined constant HAS_ONE - assumed 'HAS_ONE' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0061s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2015-02-02T15:49:27+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+NOTIC: [8] Use of undefined constant HAS_ONE - assumed 'HAS_ONE' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0057s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000910s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001152s ]
+
+[ 2015-02-02T15:49:28+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+NOTIC: [8] Use of undefined constant HAS_ONE - assumed 'HAS_ONE' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0046s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001083s ]
+
+[ 2015-02-02T15:49:28+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+NOTIC: [8] Use of undefined constant HAS_ONE - assumed 'HAS_ONE' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0085s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000885s ]
+
+[ 2015-02-02T15:49:28+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+NOTIC: [8] Use of undefined constant HAS_ONE - assumed 'HAS_ONE' D:\wamp\www\encms\ThinkPHP\Common\functions.php 第 586 行.
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0051s ]
+NOTIC: [8] Undefined variable: relationData D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 227 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-02-02T15:54:00+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001638s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: cate_id D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `en_cate` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001108s ]
+
+[ 2015-02-02T15:54:00+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0057s ]
+NOTIC: [8] Undefined index: cate_id D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `en_cate` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000978s ]
+
+[ 2015-02-02T15:54:01+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: cate_id D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `en_cate` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2015-02-02T15:54:02+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0062s ]
+NOTIC: [8] Undefined index: cate_id D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `en_cate` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001013s ]
+
+[ 2015-02-02T15:54:02+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0052s ]
+NOTIC: [8] Undefined index: cate_id D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `en_cate` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-02-02T15:54:03+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0058s ]
+NOTIC: [8] Undefined index: cate_id D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `en_cate` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000967s ]
+
+[ 2015-02-02T15:54:04+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0058s ]
+NOTIC: [8] Undefined index: cate_id D:\wamp\www\encms\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 161 行.
+SQL: SELECT * FROM `en_cate` WHERE ( 1=1 AND id='' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001216s ]
+
+[ 2015-02-02T15:55:53+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0062s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2015-02-02T15:55:55+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0072s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001163s ]
+
+[ 2015-02-02T16:24:37+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0081s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001477s ]
+
+[ 2015-02-02T16:24:38+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0061s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001022s ]
+
+[ 2015-02-02T16:24:50+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0063s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+NOTIC: [8] Undefined variable: blog D:\wamp\www\encms\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000918s ]
+
+[ 2015-02-02T16:24:51+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0077s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+NOTIC: [8] Undefined variable: blog D:\wamp\www\encms\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001212s ]
+
+[ 2015-02-02T17:24:44+08:00 ] ::1 /encms/index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017203s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000241s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000774s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.105888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013753s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002634s ]
+
+[ 2015-02-02T17:24:45+08:00 ] ::1 /encms/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003346s ]
+
+[ 2015-02-02T17:24:50+08:00 ] ::1 /encms/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+SQL: SHOW COLUMNS FROM `en_user` [ RunTime:0.1363s ]
+SQL: SELECT * FROM `en_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0327s ]
+SQL: UPDATE `en_user` SET `logintime`='1422869090',`loginip`='0.0.0.0' WHERE `id` = 1 [ RunTime:0.0467s ]
+
+[ 2015-02-02T17:24:50+08:00 ] ::1 /encms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000629s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2015-02-02T17:24:51+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0282s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0426s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0254s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+NOTIC: [8] Undefined variable: blog D:\wamp\www\encms\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000925s ]
+
+[ 2015-02-02T17:26:24+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001149s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0051s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+NOTIC: [8] Undefined variable: blog D:\wamp\www\encms\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001235s ]
+
+[ 2015-02-02T17:26:24+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0039s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+NOTIC: [8] Undefined variable: blog D:\wamp\www\encms\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2015-02-02T17:26:24+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0036s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+NOTIC: [8] Undefined variable: blog D:\wamp\www\encms\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009548s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2015-02-02T17:26:24+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0036s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+NOTIC: [8] Undefined variable: blog D:\wamp\www\encms\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001062s ]
+
+[ 2015-02-02T17:27:05+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0056s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+NOTIC: [8] Undefined variable: blog D:\wamp\www\encms\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001076s ]
+
+[ 2015-02-02T17:29:14+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0055s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] Undefined variable: blog D:\wamp\www\encms\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000881s ]
+
+[ 2015-02-02T17:29:15+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0052s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+NOTIC: [8] Undefined variable: blog D:\wamp\www\encms\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2015-02-02T17:29:47+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0055s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-02-02T17:29:54+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0058s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-02-02T17:31:41+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001232s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0057s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-02-02T17:31:49+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001316s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0064s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+NOTIC: [8] Undefined variable: blog D:\wamp\www\encms\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001156s ]
+
+[ 2015-02-02T17:31:50+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0062s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] Undefined variable: blog D:\wamp\www\encms\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2015-02-02T17:31:50+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0055s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+NOTIC: [8] Undefined variable: blog D:\wamp\www\encms\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001099s ]
+
+[ 2015-02-02T17:31:50+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0066s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000688s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001408s ]
+NOTIC: [8] Undefined variable: blog D:\wamp\www\encms\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030654s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001481s ]
+
+[ 2015-02-02T17:33:06+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0062s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+NOTIC: [8] Undefined variable: blog D:\wamp\www\encms\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000935s ]
+
+[ 2015-02-02T17:34:23+08:00 ] ::1 /encms/index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000953s ]
+
+[ 2015-02-02T17:34:23+08:00 ] ::1 /encms/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001695s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001042s ]
+
+[ 2015-02-02T17:34:24+08:00 ] ::1 /encms/index.php/Admin/Login/verify/0.8086087140254676
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2015-02-02T17:34:28+08:00 ] ::1 /encms/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+SQL: SHOW COLUMNS FROM `en_user` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `en_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `en_user` SET `logintime`='1422869668',`loginip`='0.0.0.0' WHERE `id` = 1 [ RunTime:0.0687s ]
+
+[ 2015-02-02T17:34:28+08:00 ] ::1 /encms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001137s ]
+
+[ 2015-02-02T17:34:29+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0062s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+NOTIC: [8] Undefined variable: blog D:\wamp\www\encms\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000793s ]
+
+[ 2015-02-02T17:35:21+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0052s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+NOTIC: [8] Undefined variable: BlogRelation D:\wamp\www\encms\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000811s ]
+
+[ 2015-02-02T17:35:22+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0057s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+NOTIC: [8] Undefined variable: BlogRelation D:\wamp\www\encms\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2015-02-02T17:35:22+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0043s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+NOTIC: [8] Undefined variable: BlogRelation D:\wamp\www\encms\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2015-02-02T17:35:22+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0041s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+NOTIC: [8] Undefined variable: BlogRelation D:\wamp\www\encms\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002829s ]
+
+[ 2015-02-02T17:35:22+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0038s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+NOTIC: [8] Undefined variable: BlogRelation D:\wamp\www\encms\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2015-02-02T17:35:26+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0073s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+NOTIC: [8] Undefined variable: blog D:\wamp\www\encms\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001296s ]
+
+[ 2015-02-02T17:35:43+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0049s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000391s ]
+NOTIC: [8] Undefined variable: blog D:\wamp\www\encms\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018326s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000966s ]
+
+[ 2015-02-02T17:35:43+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0036s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+NOTIC: [8] Undefined variable: blog D:\wamp\www\encms\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001455s ]
+
+[ 2015-02-02T17:35:43+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0037s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+NOTIC: [8] Undefined variable: blog D:\wamp\www\encms\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000910s ]
+
+[ 2015-02-02T17:35:45+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0051s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+NOTIC: [8] Undefined variable: blog D:\wamp\www\encms\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001005s ]
+
+[ 2015-02-02T17:35:45+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0037s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+NOTIC: [8] Undefined variable: blog D:\wamp\www\encms\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000867s ]
+
+[ 2015-02-02T17:35:45+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0036s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+NOTIC: [8] Undefined variable: blog D:\wamp\www\encms\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009849s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000869s ]
+
+[ 2015-02-02T17:35:57+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0054s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+NOTIC: [8] Undefined variable: blog D:\wamp\www\encms\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001131s ]
+
+[ 2015-02-02T17:39:38+08:00 ] ::1 /encms/index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009594s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001137s ]
+
+[ 2015-02-02T17:39:38+08:00 ] ::1 /encms/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001483s ]
+
+[ 2015-02-02T17:39:39+08:00 ] ::1 /encms/index.php/Admin/Login/verify/0.039216798497363925
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000952s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001147s ]
+
+[ 2015-02-02T17:39:40+08:00 ] ::1 /encms/index.php/Admin/Login/verify/0.8368528794962913
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2015-02-02T17:39:41+08:00 ] ::1 /encms/index.php/Admin/Login/verify/0.547483190195635
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001249s ]
+
+[ 2015-02-02T17:39:41+08:00 ] ::1 /encms/index.php/Admin/Login/verify/0.15434262319467962
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001248s ]
+
+[ 2015-02-02T17:39:42+08:00 ] ::1 /encms/index.php/Admin/Login/verify/0.1770969822537154
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003876s ]
+
+[ 2015-02-02T17:39:48+08:00 ] ::1 /encms/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+SQL: SHOW COLUMNS FROM `en_user` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `en_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `en_user` SET `logintime`='1422869988',`loginip`='0.0.0.0' WHERE `id` = 1 [ RunTime:0.0406s ]
+
+[ 2015-02-02T17:39:48+08:00 ] ::1 /encms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000526s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012489s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2015-02-02T17:39:49+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0062s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000935s ]
+
+[ 2015-02-02T17:44:46+08:00 ] ::1 /encms/index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2015-02-02T17:44:46+08:00 ] ::1 /encms/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002313s ]
+
+[ 2015-02-02T17:44:47+08:00 ] ::1 /encms/index.php/Admin/Login/verify/0.7585193854756653
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001006s ]
+
+[ 2015-02-02T17:44:48+08:00 ] ::1 /encms/index.php/Admin/Login/verify/0.5642822426743805
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001115s ]
+
+[ 2015-02-02T17:44:48+08:00 ] ::1 /encms/index.php/Admin/Login/verify/0.11756011983379722
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001121s ]
+
+[ 2015-02-02T17:44:49+08:00 ] ::1 /encms/index.php/Admin/Login/verify/0.21630749944597483
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000913s ]
+
+[ 2015-02-02T17:44:53+08:00 ] ::1 /encms/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+SQL: SHOW COLUMNS FROM `en_user` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `en_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `en_user` SET `logintime`='1422870293',`loginip`='0.0.0.0' WHERE `id` = 1 [ RunTime:0.0694s ]
+
+[ 2015-02-02T17:44:53+08:00 ] ::1 /encms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000855s ]
+
+[ 2015-02-02T17:44:56+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0059s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+
+[ 2015-02-02T17:45:14+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0052s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+
+[ 2015-02-02T17:46:20+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0059s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000447s ]
+
+[ 2015-02-02T17:46:20+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0050s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+
+[ 2015-02-02T17:46:49+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0060s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001686s ]
+
+[ 2015-02-02T17:46:50+08:00 ] ::1 /encms/index.php/Admin/Blog/toTrach/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2015-02-02T18:25:59+08:00 ] ::1 /encms/index.php/Admin/Blog/toTrach/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004405s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.2391s ]
+SQL: UPDATE `en_blog` SET `del`='1' WHERE `id` = 1 [ RunTime:0.1029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000284s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000813s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.150134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.150938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003118s ]
+
+[ 2015-02-02T18:26:00+08:00 ] ::1 /encms/index.php/Admin/Blog/toTrach/id/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001427s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0074s ]
+SQL: UPDATE `en_blog` SET `del`='1' WHERE `id` = 0 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000606s ]
+
+[ 2015-02-02T18:26:03+08:00 ] ::1 /encms/index.php/Admin/Blog/toTrach/id/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001468s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0076s ]
+SQL: UPDATE `en_blog` SET `del`='1' WHERE `id` = 0 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000515s ]
+
+[ 2015-02-02T18:26:25+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0057s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0388s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000618s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001688s ]
+
+[ 2015-02-02T18:26:27+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.031947s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001436s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0070s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000381s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001072s ]
+
+[ 2015-02-02T18:26:38+08:00 ] ::1 /encms/index.php/Admin/Blog/toTrach/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0070s ]
+SQL: UPDATE `en_blog` SET `del`='1' WHERE `id` = 1 [ RunTime:0.0680s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000699s ]
+
+[ 2015-02-02T18:26:43+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0052s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2015-02-02T18:27:34+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002238s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `en_blog`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0083s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001557s ]
+
+[ 2015-02-02T18:27:37+08:00 ] ::1 /encms/index.php/Admin/Blog/blog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001896s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort ASC  [ RunTime:0.0413s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000380s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001740s ]
+
+[ 2015-02-02T18:29:18+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001329s ]
+
+[ 2015-02-02T18:29:30+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001614s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0073s ]
+SQL: SELECT `id`,`title`,`content`,`time`,`cid` FROM `en_blog` WHERE `del` = 0  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001292s ]
+
+[ 2015-02-02T18:30:11+08:00 ] ::1 /encms/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001042s ]
+
+[ 2015-02-02T18:30:12+08:00 ] ::1 /encms/index.php/Admin/Blog/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001384s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0073s ]
+SQL: SELECT `id`,`title`,`content`,`time`,`cid` FROM `en_blog` WHERE `del` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0055s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+ERR: 模板不存在:./Application/Admin/View/Admin/Blog/index.html
+
+[ 2015-02-02T18:30:30+08:00 ] ::1 /encms/index.php/Admin/Blog/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002182s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0074s ]
+SQL: SELECT `id`,`title`,`content`,`time`,`cid` FROM `en_blog` WHERE `del` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0065s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001307s ]
+
+[ 2015-02-02T18:30:35+08:00 ] ::1 /encms/index.php/Admin/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0072s ]
+SQL: SELECT `id`,`title`,`content`,`time`,`cid` FROM `en_blog` WHERE `del` = 0  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012610s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001428s ]
+
+[ 2015-02-02T18:30:37+08:00 ] ::1 /encms/index.php/Admin/Blog/trach
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002095s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0067s ]
+SQL: SELECT `id`,`title`,`content`,`time`,`cid` FROM `en_blog` WHERE `del` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0058s ]
+SQL: SELECT `name` FROM `en_cate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001495s ]
+

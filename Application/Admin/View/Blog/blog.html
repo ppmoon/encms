@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+	<title>添加博文页面</title>
+	<script>
+	window.UEDITOR_HOME_URL = "__PUBLIC__/ueditor/";
+	window.onload = function (){
+		UE.getEditor('content');
+	}
+	</script>
+	<js file='__PUBLIC__/ueditor/ueditor.config.js'/>
+	<js file='__PUBLIC__/ueditor/ueditor.all.min.js'/>
+	
+</head>
+<body>
+	<form action="{:U('Admin/Blog/addBlog')}" method="post">
+		<table border="1">
+			<tr>
+				<th colspan="2">博文发布</th>
+			</tr>
+			<tr>
+				<td align="right" width="10%">所属分类：</td>
+				<td>
+					<select name="cid">
+						<option value="">===请选择分类===</option>
+						<foreach name='cate' item='v'>
+							<option value="{$v.id}">{$v.html}{$v.name}</option>
+						</foreach>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td align="right">标题：</td>
+				<td>
+					<input type="text" name="title"/>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<textarea name="content" id="content"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td align="center" colspan="2">
+					<input type="submit" value="保存博文"/>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
