@@ -1,13 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>分类添加</title>
-</head>
-<body>
-	<form action="{:U('Admin/Category/runAddCate')}" method="post">
-		<table>
-			<tr>
+<include file='Common:header'/>
+<include file='Common:nav'/>
+<form action="{:U('Admin/Category/runAddCate')}" method="post">
+      <table class="table text-left">
+        <tr>
 				<th colspan="2">添加栏目分类</th>
 			</tr>
 			<tr>
@@ -28,7 +23,6 @@
 					<input type="submit" value='保存添加'/>
 				</td>
 			</tr>
-		</table>
-	</form>
-</body>
-</html>
+      </table>
+    </form>
+<include file='Common:footer'/>

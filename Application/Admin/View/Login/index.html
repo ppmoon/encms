@@ -1,16 +1,23 @@
-<!DOCTYPE html>
-<html lang="zh-cn">
-  <head>
-  	<meta charset="utf-8"/>
-  	<title>登录页面</title>
-  </head>
-  <body>
-  	<form action="{:U('Admin/Login/login')}" method="post">
-  		<p>用户名: <input type="text" name="username" /></p>
-  		<p>密码: <input type="password" name="password" /></p>
-  		<img alt="验证码" src="{:U('Admin/Login/verify')}" onClick="this.src='{:U('Admin/Login/verify')}/'+Math.random()" />
-  		<p>验证码: <input type="text" name="verify" /></p>
-  		<input type="submit" value="提交" />
-  	</form>
+<include file='Common:header'/>
+  <body id="login_bg">
+    <div class="text-center">
+    <form id="login_form" action="{:U('Admin/Login/login')}" method="post">
+    <h1 id="login_title"><b>立伟硅藻土</b></h1>
+    <div class="input-group" id="input_group">
+    <span class="input-group-addon" id="sizing-addon1"><span class="glyphicon glyphicon-user"></span></span>
+      <input type="text" name="username" class="form-control" placeholder="请输入用户名" aria-describedby="sizing-addon1">
+    </div>
+    <div class="input-group" id="input_group">
+    <span class="input-group-addon" id="sizing-addon1"><span class="glyphicon glyphicon-asterisk"></span></span>
+      <input type="password" name="password" class="form-control" placeholder="请输入密码" aria-describedby="sizing-addon1">
+    </div>
+    <div class="input-group" id="input_group">
+    <span class="input-group-addon" id="sizing-addon1"><span class="glyphicon glyphicon-barcode"></span></span>
+      <input type="text" name="verify" class="form-control" placeholder="请输入验证码" aria-describedby="sizing-addon1">
+    </div>
+    <img id="verify_img" alt="验证码" src="{:U('Admin/Login/verify')}" onClick="this.src='{:U('Admin/Login/verify')}/'+Math.random()">
+    <input id="login_button" type="submit" class="btn btn-primary btn-lg btn-block" value="提交">
+    </form>
+    </div>
   </body>
-</html> 
+</html>

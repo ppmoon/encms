@@ -17,7 +17,7 @@ class BlogController extends CommonController {
 				'del'=>1 
 		);
 		if (M('blog')->save($update)) {
-			$this->success('删除到回收站','Admin/Blog/index');
+			$this->success('删除到回收站','index');
 		}else{
 			$this->error('删除失败');
 		}
@@ -42,7 +42,7 @@ class BlogController extends CommonController {
 				'cid'=>(int) $_POST['cid']
 		);
 		if (M('blog')->add($data)) {
-			$this->success('保存成功','/Admin/Blog/addBlog');
+			$this->success('保存成功','blog');
 		}else {
 			$this->error('保存失败');
 		}

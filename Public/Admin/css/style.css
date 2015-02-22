@@ -1,0 +1,56 @@
+/*css样式*/
+#login_bg{
+	background-image: url('../img/bg.jpg');
+}
+#login_title{
+	color: #333;
+}
+/*login*/
+#login_form{
+	width: 272px;
+	margin: 0 auto;
+	border: 1px solid #eeeeee;
+	margin-top: 120px;
+	padding: 10px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+#input_group{
+	margin-top: 20px;
+}
+#verify_img{
+	margin-top: 20px;
+	width: 250px;
+	height: 62px;
+}
+#login_button{
+	margin-top: 20px;
+	border-radius: 0px;
+	height: 40px;
+	line-height: 1em;
+	font-size: 14px;
+}
+/*header*/
+#header{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #333;
+	color:#fff;
+}
+#header a{
+	color:#fff;
+}
+/*slider*/
+#slider_nav{
+	background-color: #222;
+	height: 100vh;
+	padding: 0px;
+}
+#slider_nav a{
+	color: #fff;
+	padding-left: 15px;
+	padding-right: 0px;
+}
+#slider_nav a:hover{
+	color:#333;
+}

@@ -1,0 +1,21 @@
+<body>
+    <div id="header">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-8">用户名称</div>
+          <div class="col-md-4 text-right"><a href="{:U('Admin/Index/logout')}">退出登录</a></div>
+        </div>
+      </div>
+    </div><!--header-->
+    <div class="container-fluid">
+      <div class="row">
+      <div class="col-md-3" id="slider_nav">
+          <ul class="nav navbar-inverse nav-stacked text-left">
+          <li><a href="{:U('Admin/Blog/index')}"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;文章管理</a></li>
+          <li><a href="{:U('Admin/Blog/blog')}"><span class="glyphicon glyphicon-file"></span>&nbsp;&nbsp;添加文章</a></li>
+            <li><a href="{:U('Admin/Blog/trach')}"><span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;回收站</a></li>
+            <li><a href="{:U('Admin/Category/index')}"><span class="glyphicon glyphicon-list"></span>&nbsp;&nbsp;分类管理</a></li>
+            <li><a href="{:U('Admin/Category/addCate')}"><span class="glyphicon glyphicon-indent-left"></span>&nbsp;&nbsp;添加分类</a></li>
+          </ul><!--nav--><!--slider-->
+      </div>
+      <div class="col-md-9">
