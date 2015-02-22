@@ -40,33 +40,23 @@
           </ul><!--nav--><!--slider-->
       </div>
       <div class="col-md-9">
-<form action="<?php echo U('Admin/Category/sortCate');?>" method="post">
-    <table class="table table-hover">
+<table class="table table-hover">
       <tr>
         <th>ID</th>
         <th>标题</th>
         <th>所属分类</th>
-        <th>排序</th>
+        <th>发布时间</th>
         <th>操作</th>
       </tr>
-      <?php if(is_array($cate)): foreach($cate as $key=>$v): ?><tr>
-					<td><?php echo ($v["id"]); ?></td>
-					<td><?php echo ($v["html"]); echo ($v["name"]); ?></td>
-					<td><?php echo ($v["level"]); ?></td>
-					<td>
-						<input type="text" name="<?php echo ($v["id"]); ?>" value="<?php echo ($v["sort"]); ?>" />
-					</td>
-					<td>
-						[<a href="<?php echo U('Admin/Category/addCate',array('pid' => $v['id']));?>">添加子分类</a>]
-						[<a href="#">修改</a>]
-						[<a href="<?php echo U('Admin/Category/delCate',array('id'=>$v['id']));?>">删除</a>]
-					</td>
-				</tr><?php endforeach; endif; ?>
-    </table>
-    <div class="text-center">
-    <input  class="btn btn-primary"type="submit" value="排序"/>
-    </div>
-</form>
+    <?php if(is_array($blog)): foreach($blog as $key=>$v): ?><tr>
+			<td><?php echo ($v["id"]); ?></td>
+			<td><?php echo ($v["title"]); ?></td>
+			<td><?php echo ($v["cate"]); ?></td>
+			<td><?php echo (date('y-m-d H:i',$v["time"])); ?></td>
+			<td>[<a href="<?php echo U('Admin/Blog/reTrach',array('id'=>$v['id']));?>">恢复</a>]</td>
+			<td>[<a href="<?php echo U('Admin/Blog/delTrach',array('id'=>$v['id']));?>">删除</a>]</td>
+		</tr><?php endforeach; endif; ?>
+</table>
 </div><!--content-->
       </div>
     </div><!--center-->

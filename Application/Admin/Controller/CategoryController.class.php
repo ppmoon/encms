@@ -31,4 +31,14 @@ class CategoryController extends CommonController {
 		}
 		$this->redirect('Admin/Category/index');
 	}
+	//分类删除
+	public function delCate(){
+		$db=M('cate');
+		$id=I('id',0,'intval');
+		if($db->delete($id)){
+			$this->success('分类删除成功',U('Admin/Category/index'));
+		}else{
+			$this->error('删除失败',U('Admin/Category/index'));
+		}
+	}
 }

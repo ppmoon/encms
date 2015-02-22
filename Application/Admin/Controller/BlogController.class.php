@@ -17,15 +17,37 @@ class BlogController extends CommonController {
 				'del'=>1 
 		);
 		if (M('blog')->save($update)) {
-			$this->success('删除到回收站','index');
+			$this->success('删除到回收站',U('Admin/Blog/index'));
 		}else{
 			$this->error('删除失败');
 		}
 	}
-	//回收站 和index控制器共享模板
+	//回收站恢复文章
+	public function reTrach(){
+		$update=array(
+				'id'=>(int) $_GET['id'],
+				'del'=>0 
+		);
+		if (M('blog')->save($update)) {
+			$this->success('恢复文章到文章列表',U('Admin/Blog/trach'));
+		}else{
+			$this->error('恢复失败');
+		}
+	}
+	//回收站彻底删除
+	public function delTrach(){
+		$db=M('blog');
+		$id=I('id',0,'intval');
+		if($db->delete($id)){
+			$this->success('文章彻底删除成功',U('Admin/Blog/trach'));
+		}else{
+			$this->error('文章彻底删除失败',U('Admin/Blog/trach'));
+		}
+	}
+	//回收站模板显示
 	public function trach(){
 		$this->blog=D('BlogRelation')->getBlogs(1);
-		$this->display('Blog/index');  
+		$this->display();  
 	}
 	//添加博文页面
 	public function blog(){

@@ -1,0 +1,48 @@
+<body>
+	<div id="header">
+		<div class="main">
+				<div id="cbp-hrmenu" class="cbp-hrmenu">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8">
+							<img width="200px" style="margin: 1em 2em;"src="__PUBLIC__/Home/img/logo.png">
+							</div>
+							<div class="col-md-4">
+								<!-- <form style="margin-top:10px"class="navbar-form navbar-right" role="search">
+							        <div class="form-group">
+							          <input type="text" class="form-control" placeholder="搜索">
+							        </div>
+							        <button type="submit" class="btn btn-default">搜索</button>
+							    </form> -->
+							</div>
+						</div>
+					</div>
+					<php>
+						use Admin\Model\Category;
+						$cate=M('cate')->order('sort')->select();
+						import("Admin.Model.Category");
+						$cate=Category::unlimitedForLayer($cate);
+						$blog=M('blog');
+					</php>
+					<ul class="container">
+						<foreach name='cate' item='v'>
+							<li>
+								<a href="#">{$v.name}</a>
+								<if condition='$v["child"]'>
+								<div class="cbp-hrsub">
+									<div class="cbp-hrsub-inner container"> 
+										<div>
+											<foreach name='v.child' item='value'>
+												<h4>{$value.name}</h4>
+													<ul>
+														<li><a href="#">aa</a></li>
+													</ul>
+											</foreach>
+										</div>
+									</div><!-- /cbp-hrsub-inner -->
+								</div><!-- /cbp-hrsub -->
+							</li>
+						</foreach>
+					</ul>
+				</div>
+			</div>

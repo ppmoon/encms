@@ -6,7 +6,7 @@
         <th>ID</th>
         <th>标题</th>
         <th>所属分类</th>
-        <th>发布时间</th>
+        <th>排序</th>
         <th>操作</th>
       </tr>
       <foreach name="cate" item="v">
@@ -20,10 +20,10 @@
 					<td>
 						[<a href="{:U('Admin/Category/addCate',array('pid' => $v['id']))}">添加子分类</a>]
 						[<a href="#">修改</a>]
-						[<a href="#">删除</a>]
+						[<a href="{:U('Admin/Category/delCate',array('id'=>$v['id']))}">删除</a>]
 					</td>
 				</tr>
-			</foreach>
+	  </foreach>
     </table>
     <div class="text-center">
     <input  class="btn btn-primary"type="submit" value="排序"/>
