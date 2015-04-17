@@ -36,7 +36,7 @@
 							</div>
 						</div>
 					</div>
-					<?php use Admin\Model\Category; $cate=M('cate')->order('sort')->select(); import("Admin.Model.Category"); $cate=Category::unlimitedForLayer($cate); $blog=M('blog'); ?>
+					<?php use Admin\Model\Category; $cate=M('cate')->order('sort')->select(); import("Admin.Model.Category"); $cate=Category::unlimitedForLayer($cate); ?>
 					<ul class="container">
 						<?php if(is_array($cate)): foreach($cate as $key=>$v): ?><li>
 								<a href="#"><?php echo ($v["name"]); ?></a>
@@ -46,7 +46,7 @@
 										<div>
 											<?php if(is_array($v["child"])): foreach($v["child"] as $key=>$value): ?><h4><?php echo ($value["name"]); ?></h4>
 													<ul>
-														<li><a href="#">aa</a></li>
+														<li><a href="#">文章列表</a></li>
 													</ul><?php endforeach; endif; ?>
 										</div>
 									</div><!-- /cbp-hrsub-inner -->

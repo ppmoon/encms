@@ -22,7 +22,6 @@
 						$cate=M('cate')->order('sort')->select();
 						import("Admin.Model.Category");
 						$cate=Category::unlimitedForLayer($cate);
-						$blog=M('blog');
 					</php>
 					<ul class="container">
 						<foreach name='cate' item='v'>
@@ -35,7 +34,7 @@
 											<foreach name='v.child' item='value'>
 												<h4>{$value.name}</h4>
 													<ul>
-														<li><a href="#">aa</a></li>
+														<li><a href="#">文章列表</a></li>
 													</ul>
 											</foreach>
 										</div>
