@@ -44,7 +44,7 @@ class BlogController extends CommonController {
 			$this->error('文章彻底删除失败',U('Admin/Blog/trach'));
 		}
 	}
-	//回收站模板显示
+	//回收站模板显示（回收站列表）
 	public function trach(){
 		$this->blog=D('BlogRelation')->getBlogs(1);
 		$this->display();  
