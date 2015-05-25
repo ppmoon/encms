@@ -1,0 +1,28 @@
+<include file='Common:header'/>
+<include file='Common:nav'/>
+<form action="{:U('Admin/Category/runSaveCate')}" method="post">
+      <table class="table text-left">
+        <tr>
+				<th colspan="2">修改栏目分类{$id}</th>
+			</tr>
+			<tr>
+				<td align="right">分类栏目名称：</td>
+				<td>
+					<input type="text" name="name" value="{$cname}"/>
+				</td>
+			</tr>
+			<tr>
+				<td align="right">排序：</td>
+				<td>
+					<input type="text" name="sort" value="100"/>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<input type="hidden" name="id" value="{$id}"/>
+					<input type="submit" value='保存修改'/>
+				</td>
+			</tr>
+      </table>
+    </form>
+<include file='Common:footer'/>

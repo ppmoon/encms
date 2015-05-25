@@ -53,7 +53,7 @@
 			<td><?php echo ($v["title"]); ?></td>
 			<td><?php echo ($v["cate"]); ?></td>
 			<td><?php echo (date('y-m-d H:i',$v["time"])); ?></td>
-			<td>[<a href="#">修改</a>]</td>
+			<td>[<a href="<?php echo U('Admin/Blog/edit',array('id'=>$v['id']));?>">修改</a>]</td>
 			<td>[<a href="<?php echo U('Admin/Blog/toTrach',array('id'=>$v['id']));?>">删除</a>]</td>
 		</tr><?php endforeach; endif; ?>
 </table>

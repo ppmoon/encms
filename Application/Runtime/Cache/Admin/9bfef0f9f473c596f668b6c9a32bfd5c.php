@@ -58,7 +58,7 @@
 					</td>
 					<td>
 						[<a href="<?php echo U('Admin/Category/addCate',array('pid' => $v['id']));?>">添加子分类</a>]
-						[<a href="#">修改</a>]
+						[<a href="<?php echo U('Admin/Category/editCate',array('id'=>$v['id']));?>">修改</a>]
 						[<a href="<?php echo U('Admin/Category/delCate',array('id'=>$v['id']));?>">删除</a>]
 					</td>
 				</tr><?php endforeach; endif; ?>

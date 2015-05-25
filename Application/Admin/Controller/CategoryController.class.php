@@ -41,4 +41,29 @@ class CategoryController extends CommonController {
 			$this->error('删除失败',U('Admin/Category/index'));
 		}
 	}
+	public function editCate(){
+		$id=I('id',0,'intval');
+        $db=M('cate')->where("id='".$id."'")->select();
+		$cname=$db[0]['name'];
+		$nid=$db[0]['id'];
+		//dump($nid);die;
+		$this->assign('cname',$cname);
+		$this->assign('id',$nid);
+		$this->display();
+	}
+	public function runSaveCate(){
+		$data=array(
+				'id'=>(int) $_POST['id'],
+				'name'=>$_POST['name'],
+				'pid'=>0,
+				'sort'=>$_POST['sort']
+		);
+		//dump($_POST['id']);die();
+		if(M('cate')->save($data)){
+			$this->success('分类修改成功',U('Admin/Category/index'));
+		}else{
+			$this->error('分类修改失败',U('Admin/Category/index'));
+		}
+		
+	}
 }

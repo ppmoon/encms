@@ -93,7 +93,47 @@ class BlogController extends CommonController {
 		}*/
 		
 	}
-	public function editBlog(){
+	//修改音频
+	public function edit(){
+		//获取分类列表
+		$cate=M('cate')->order('sort ASC')->select();
+		$this->cate=Category::unlimitedForLevel($cate);//一维数组递归
+		//获取文章内容
+		$id=$_GET['id'];
+        $blog=M('blog')->where("id='".$id."'")->select();
+		$musicurl=$blog[0]['content'];
+		$musicname=$blog[0]['title'];
+		$musicid=$blog[0]['id'];
+		$this->assign('itemId',$musicid);
+		$this->assign('itemList',$musicurl);
+		$this->assign('itemName',$musicname);
+        $this->display();
+	}
+	//保存修改
+	public function doEdit(){
+		$upload = new \Think\Upload();// 实例化上传类
+		$upload->maxSize   =     0;// 设置附件上传大小
+		$upload->exts      =     array('mp3');// 设置附件上传类型
+		$upload->rootPath  =     './Public/'; // 设置附件上传根目录
+		$upload->savePath  =     './mp3/'; // 设置附件上传（子）目录
+		$upload->replace ='true';
 		
+		$info   =   $upload->upload();
+							// 上传文件 
+		if(!$info) {// 上传错误提示错误信息
+			$this->error($upload->getError());
+		}else{
+			$data=array(
+				'id'=>(int) $_POST['id'],
+				'title'=>$_POST['title'],
+				'content'=>$info['music']['savepath'].$info['music']['savename'],
+				'time'=>time(),
+				'cid'=>(int) $_POST['cid']
+			);
+			M('blog')->save($data);
+			$this->success('保存成功','blog');
+			//dump($info['music']['savepath'].$info['music']['savename']);
+			//echo $info['file']['savepath'].$info['file']['savename'];
+		}
 	}
 }

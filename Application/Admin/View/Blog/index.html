@@ -14,7 +14,7 @@
 			<td>{$v.title}</td>
 			<td>{$v.cate}</td>
 			<td>{$v.time|date='y-m-d H:i',###}</td>
-			<td>[<a href="#">修改</a>]</td>
+			<td>[<a href="{:U('Admin/Blog/edit',array('id'=>$v['id']))}">修改</a>]</td>
 			<td>[<a href="{:U('Admin/Blog/toTrach',array('id'=>$v['id']))}">删除</a>]</td>
 		</tr>
 	</foreach>
