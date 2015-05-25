@@ -55,11 +55,34 @@ class BlogController extends CommonController {
 		$this->cate=Category::unlimitedForLevel($cate);//一维数组递归
 		$this->display();
 	}
-	//添加博文控制器
+	//添加音频控制器
 	public function addBlog(){
-		$data=array(
+		$upload = new \Think\Upload();// 实例化上传类
+		$upload->maxSize   =     0;// 设置附件上传大小
+		$upload->exts      =     array('mp3');// 设置附件上传类型
+		$upload->rootPath  =     './Public/'; // 设置附件上传根目录
+		$upload->savePath  =     './mp3/'; // 设置附件上传（子）目录
+		$upload->replace ='true';
+		
+		$info   =   $upload->upload();
+							// 上传文件 
+		if(!$info) {// 上传错误提示错误信息
+			$this->error($upload->getError());
+		}else{
+			$data=array(
+				'title'=>$_POST['title'],
+				'content'=>$info['music']['savepath'].$info['music']['savename'],
+				'time'=>time(),
+				'cid'=>(int) $_POST['cid']
+			);
+			M('blog')->add($data);
+			$this->success('保存成功','blog');
+			//dump($info['music']['savepath'].$info['music']['savename']);
+			//echo $info['file']['savepath'].$info['file']['savename'];
+		}
+		/*$data=array(
 				'title'=>I('title'),
-				'content'=>I('content'),
+				'content'=>$upload->rootPath,
 				'time'=>time(),
 				'cid'=>(int) $_POST['cid']
 		);
@@ -67,7 +90,10 @@ class BlogController extends CommonController {
 			$this->success('保存成功','blog');
 		}else {
 			$this->error('保存失败');
-		}
+		}*/
+		
+	}
+	public function editBlog(){
 		
 	}
 }

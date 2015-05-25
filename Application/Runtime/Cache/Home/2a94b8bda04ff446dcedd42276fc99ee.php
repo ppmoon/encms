@@ -92,7 +92,7 @@ $(document).ready(function(){
 <div class="col-md-3">
 <h2>分类</h2>
 <ul>
-<?php if(is_array($cate)): foreach($cate as $key=>$v): ?><li><a href="/encms/index.php/Home/Index/info/<?php echo ($v["id"]); ?>"><?php echo ($v["name"]); ?></a></li><?php endforeach; endif; ?>	
+<?php if(is_array($cate)): foreach($cate as $key=>$v): ?><li><a href="/encms/index.php/Home/Index/info/id/<?php echo ($v["id"]); ?>"><?php echo ($v["name"]); ?></a></li><?php endforeach; endif; ?>	
 </ul>
 </div><!--分类-->
 <div class="col-md-3">

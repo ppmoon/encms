@@ -40,7 +40,8 @@
           </ul><!--nav--><!--slider-->
       </div>
       <div class="col-md-9">
-<h1>您好！</h1>
+<h1>您好！欢迎登陆个人网络FM播客系统。</h1>
+<p>作者：月月bird</p>
 </div><!--content-->
       </div>
     </div><!--center-->

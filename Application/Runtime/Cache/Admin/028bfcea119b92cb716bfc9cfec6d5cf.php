@@ -48,7 +48,7 @@
           </ul><!--nav--><!--slider-->
       </div>
       <div class="col-md-9">
-	<form action="<?php echo U('Admin/Blog/addBlog');?>" method="post">
+	<form action="<?php echo U('Admin/Blog/addBlog');?>" enctype="multipart/form-data" method="post">
     <table class="table">
       <tr>
         <th colspan="2">博文发布</th>
@@ -69,9 +69,8 @@
         </td>
       </tr>
       <tr>
-        <td colspan="2">
-          <textarea name="content" id="content"></textarea>
-        </td>
+        <td><input type="file" name="music" />
+		</td>
       </tr>
       <tr>
         <td align="center" colspan="2">
