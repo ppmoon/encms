@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>立伟硅藻土后台的登录</title>
+    <title>嗯！FM</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link href="/encms/Public/Admin/css/style.css" rel="stylesheet">
@@ -32,8 +32,8 @@
       <div class="row">
       <div class="col-md-3" id="slider_nav">
           <ul class="nav navbar-inverse nav-stacked text-left">
-          <li><a href="<?php echo U('Admin/Blog/index');?>"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;文章管理</a></li>
-          <li><a href="<?php echo U('Admin/Blog/blog');?>"><span class="glyphicon glyphicon-file"></span>&nbsp;&nbsp;添加文章</a></li>
+          <li><a href="<?php echo U('Admin/Blog/index');?>"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;音频管理</a></li>
+          <li><a href="<?php echo U('Admin/Blog/blog');?>"><span class="glyphicon glyphicon-file"></span>&nbsp;&nbsp;添加音频</a></li>
             <li><a href="<?php echo U('Admin/Blog/trach');?>"><span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;回收站</a></li>
             <li><a href="<?php echo U('Admin/Category/index');?>"><span class="glyphicon glyphicon-list"></span>&nbsp;&nbsp;分类管理</a></li>
             <li><a href="<?php echo U('Admin/Category/addCate');?>"><span class="glyphicon glyphicon-indent-left"></span>&nbsp;&nbsp;添加分类</a></li>
@@ -57,7 +57,7 @@
 						<input type="text" name="<?php echo ($v["id"]); ?>" value="<?php echo ($v["sort"]); ?>" />
 					</td>
 					<td>
-						[<a href="<?php echo U('Admin/Category/addCate',array('pid' => $v['id']));?>">添加子分类</a>]
+						
 						[<a href="<?php echo U('Admin/Category/editCate',array('id'=>$v['id']));?>">修改</a>]
 						[<a href="<?php echo U('Admin/Category/delCate',array('id'=>$v['id']));?>">删除</a>]
 					</td>

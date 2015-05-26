@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>立伟硅藻土后台的登录</title>
+    <title>嗯！FM</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link href="/encms/Public/Admin/css/style.css" rel="stylesheet">
@@ -22,7 +22,7 @@
   <body id="login_bg">
     <div class="text-center">
     <form id="login_form" action="<?php echo U('Admin/Login/login');?>" method="post">
-    <h1 id="login_title"><b>立伟硅藻土</b></h1>
+    <h1 id="login_title"><b>嗯！FM</b></h1>
     <div class="input-group" id="input_group">
     <span class="input-group-addon" id="sizing-addon1"><span class="glyphicon glyphicon-user"></span></span>
       <input type="text" name="username" class="form-control" placeholder="请输入用户名" aria-describedby="sizing-addon1">

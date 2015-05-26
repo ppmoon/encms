@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>立伟硅藻土后台的登录</title>
+    <title>嗯！FM</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link href="/encms/Public/Admin/css/style.css" rel="stylesheet">
@@ -32,8 +32,8 @@
       <div class="row">
       <div class="col-md-3" id="slider_nav">
           <ul class="nav navbar-inverse nav-stacked text-left">
-          <li><a href="<?php echo U('Admin/Blog/index');?>"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;文章管理</a></li>
-          <li><a href="<?php echo U('Admin/Blog/blog');?>"><span class="glyphicon glyphicon-file"></span>&nbsp;&nbsp;添加文章</a></li>
+          <li><a href="<?php echo U('Admin/Blog/index');?>"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;音频管理</a></li>
+          <li><a href="<?php echo U('Admin/Blog/blog');?>"><span class="glyphicon glyphicon-file"></span>&nbsp;&nbsp;添加音频</a></li>
             <li><a href="<?php echo U('Admin/Blog/trach');?>"><span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;回收站</a></li>
             <li><a href="<?php echo U('Admin/Category/index');?>"><span class="glyphicon glyphicon-list"></span>&nbsp;&nbsp;分类管理</a></li>
             <li><a href="<?php echo U('Admin/Category/addCate');?>"><span class="glyphicon glyphicon-indent-left"></span>&nbsp;&nbsp;添加分类</a></li>
@@ -41,7 +41,11 @@
       </div>
       <div class="col-md-9">
 <h1>您好！欢迎登陆个人网络FM播客系统。</h1>
-<p>作者：月月bird</p>
+<h3>——分享声音，享受生活。</h3>
+<p>指导老师：丁超</p>
+<p>作者：刘允鹏</p>
+<p>学号：411105030214</p>
+<P>版本：1.0</P>
 </div><!--content-->
       </div>
     </div><!--center-->

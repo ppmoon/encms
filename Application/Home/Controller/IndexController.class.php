@@ -10,6 +10,9 @@ class IndexController extends Controller {
 	//通过分类ID获取文章列表
 	public function info(){
 		$id=$_GET['id'];
+		$db=M('cate')->where("id='".$id."'")->select();
+		$cname=$db[0]['name'];
+		$this->assign('cname',$cname);
         $this->blog=M('blog')->where("cid='".$id."'")->select();
         $this->display();
 	}

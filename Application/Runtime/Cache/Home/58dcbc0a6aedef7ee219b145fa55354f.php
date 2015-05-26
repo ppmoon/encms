@@ -16,14 +16,27 @@
       <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-	<link href="/encms/Public/Home/dist/skin/blue.monday/css/jplayer.blue.monday.min.css" rel="stylesheet" type="text/css" />
+	<link href="/encms/Public/Home/dist/skin/blue.monday/css/jplayer.blue.monday.css" rel="stylesheet" type="text/css" />
 	<script type="text/javascript" src="/encms/Public/Home/lib/jquery.min.js"></script>
 	<script type="text/javascript" src="/encms/Public/Home/dist/jplayer/jquery.jplayer.min.js"></script>
 </head>
-<body><!--这里是列表-->
-<ul>
-<?php if(is_array($blog)): foreach($blog as $key=>$v): ?><li><a href="/encms/index.php/Home/Index/music/id/<?php echo ($v["id"]); ?>"><?php echo ($v["title"]); ?></a></li><?php endforeach; endif; ?>	
-</ul>
-</body>
+<body id="bfont"><!--这里是列表-->
+<div class="container">
+<div class="row">
+<div class="col-md-2">
+<a href="javascript:history.go(-1);" id="back" class="glyphicon glyphicon-chevron-left"></a>
+</div>
+<div class="col-md-10">
+<h1 id="blogtitle"><?php echo ($cname); ?></h1>
+</div>	
+</div>
+<div class="row">
+<div id="blogBlock" class="thumbnail text-center">
+
+<?php if(is_array($blog)): foreach($blog as $key=>$v): ?><li><a id="catea" href="/encms/index.php/Home/Index/music/id/<?php echo ($v["id"]); ?>"><?php echo ($v["title"]); ?></a></li><?php endforeach; endif; ?>	
+
+</div>
+</div>
+</div>
 </body>
 </html>

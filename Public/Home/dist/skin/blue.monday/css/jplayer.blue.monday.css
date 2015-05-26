@@ -32,12 +32,12 @@
   font-size: 16px;
   font-family: Verdana, Arial, sans-serif;
   line-height: 1.6;
-  color: #666;
+  color: #333;
   border: 1px solid #009be3;
   background-color: #eee; }
 
 .jp-audio {
-  width: 420px; }
+  width: 320px; }
 
 .jp-audio-stream {
   width: 182px; }
@@ -66,7 +66,8 @@
   position: fixed !important;
   position: relative;
   /* Rules for IE6 (full-screen) */
-  overflow: hidden; }
+  overflow: hidden;
+  }
 
 .jp-video-full .jp-gui {
   position: fixed !important;
@@ -88,8 +89,8 @@
 
 .jp-interface {
   position: relative;
-  background-color: #eee;
-  width: 100%; }
+  background-color: #fff;
+  width: 100%;  }
 
 .jp-audio .jp-interface {
   height: 80px; }
@@ -103,7 +104,7 @@
 /* @group CONTROLS */
 .jp-controls-holder {
   clear: both;
-  width: 440px;
+  width: 320px;
   margin: 0 auto;
   position: relative;
   overflow: hidden;
@@ -116,7 +117,7 @@
   overflow: hidden; }
 
 .jp-audio .jp-controls {
-  width: 380px;
+  width: 320px;
   padding: 20px 20px 0 20px; }
 
 .jp-audio-stream .jp-controls {
@@ -196,12 +197,12 @@
   height: 15px; }
 
 .jp-audio .jp-type-single .jp-progress {
-  left: 110px;
-  width: 186px; }
+  left: 70px;
+  width: 120px; }
 
 .jp-audio .jp-type-playlist .jp-progress {
-  left: 166px;
-  width: 130px; }
+  left: 70px;
+  width: 120px; }
 
 .jp-video .jp-progress {
   top: 0px;
@@ -232,7 +233,7 @@
 .jp-volume-controls {
   position: absolute;
   top: 32px;
-  left: 308px;
+  left: 200px;
   width: 200px; }
 
 .jp-audio-stream .jp-volume-controls {
@@ -298,8 +299,8 @@
   top: 50px; }
 
 .jp-audio .jp-type-single .jp-time-holder {
-  left: 110px;
-  width: 186px; }
+  left: 70px;
+  width: 120px; }
 
 .jp-audio .jp-type-playlist .jp-time-holder {
   left: 166px;
@@ -338,7 +339,7 @@
 .jp-details,
 .jp-playlist {
   width: 100%;
-  background-color: #ccc;
+  background-color: #009be3;
   border-top: 1px solid #009be3; }
 
 .jp-type-single .jp-details,

@@ -1,1 +1,56 @@
 @CHARSET "UTF-8";
+body{
+	background-color:#f3f3f3;
+}
+li{
+list-style-type:none;
+}
+#bfont{
+	background-image: url('../img/catebg.jpg');
+	font-family: "微软雅黑",Microsoft YaHei;
+}
+#bfont h1{
+	color:#fff;
+	font-size:48px;
+	margin-top:30px;
+	margin-bottom:24px;
+}
+#catea{
+	font-size:24px;
+	color:#000;
+	line-height:48px;
+}
+#cateBlock{
+	margin:10px;
+	height:100px;
+	filter:alpha(opacity=80);
+	-moz-opacity:0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
+}
+#blogBlock{
+	filter:alpha(opacity=80);
+	-moz-opacity:0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
+}
+#blogtitle{
+	text-align:right;
+}
+#back{
+	color:#fff;
+	font-size:48px;
+	margin-top:30px;
+	margin-bottom:24px;
+	text-decoration:none;
+}
+/*播放器样式*/
+#music{
+	margin-top:8%;
+}
+#share{
+	margin-top:40px;
+}
+#bartittle{
+	color:#fff;
+}
