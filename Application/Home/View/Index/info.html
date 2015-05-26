@@ -3,19 +3,18 @@
 <div class="container">
 <div class="row">
 <div class="col-md-2">
-<a href="javascript:history.go(-1);" id="back" class="glyphicon glyphicon-chevron-left"></a>
+<a href="{:U('Home/Index/index')}" id="back" class="glyphicon glyphicon-chevron-left"></a>
 </div>
+<!--javascript:history.go(-1);-->
 <div class="col-md-10">
 <h1 id="blogtitle">{$cname}</h1>
 </div>	
 </div>
 <div class="row">
-<div id="blogBlock" class="thumbnail text-center">
-
+<div class="text-center">
 <foreach name='blog' item='v'>
 	<li><a id="catea" href="__URL__/music/id/{$v.id}">{$v.title}</a></li>
 </foreach>	
-
 </div>
 </div>
 </div>
