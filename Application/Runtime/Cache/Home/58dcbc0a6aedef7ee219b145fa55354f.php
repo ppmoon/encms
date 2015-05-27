@@ -24,17 +24,16 @@
 <div class="container">
 <div class="row">
 <div class="col-md-2">
-<a href="javascript:history.go(-1);" id="back" class="glyphicon glyphicon-chevron-left"></a>
+<a href="<?php echo U('Home/Index/index');?>" id="back" class="glyphicon glyphicon-chevron-left"></a>
 </div>
+<!--javascript:history.go(-1);-->
 <div class="col-md-10">
 <h1 id="blogtitle"><?php echo ($cname); ?></h1>
 </div>	
 </div>
 <div class="row">
-<div id="blogBlock" class="thumbnail text-center">
-
+<div class="text-center">
 <?php if(is_array($blog)): foreach($blog as $key=>$v): ?><li><a id="catea" href="/encms/index.php/Home/Index/music/id/<?php echo ($v["id"]); ?>"><?php echo ($v["title"]); ?></a></li><?php endforeach; endif; ?>	
-
 </div>
 </div>
 </div>

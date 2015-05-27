@@ -1,0 +1,68 @@
+[ 2015-05-27T07:55:46+08:00 ] ::1 /encms/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.062478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.062665s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `en_cate` ORDER BY sort  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.645889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.646096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.109739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.109957s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.045153s ]
+INFO: [ app_end ] --END-- [ RunTime:0.045343s ]
+
+[ 2015-05-27T07:55:49+08:00 ] ::1 /encms/index.php/Home/Index/info/id/26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002790s ]
+SQL: SHOW COLUMNS FROM `en_cate` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `en_cate` WHERE ( id='26' )  [ RunTime:0.0497s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `en_blog` WHERE ( cid='26' )  [ RunTime:0.0522s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002218s ]
+
+[ 2015-05-27T07:55:50+08:00 ] ::1 /encms/index.php/Home/Index/music/id/25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002203s ]
+SQL: SHOW COLUMNS FROM `en_blog` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `en_blog` WHERE ( id='25' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002873s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002434s ]
+

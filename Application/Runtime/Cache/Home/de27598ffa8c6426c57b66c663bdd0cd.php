@@ -50,8 +50,9 @@ $(document).ready(function(){
 </script>
 <div class="row">
 <div class="col-md-2">
-<a href="javascript:history.go(-1);" id="back" class="glyphicon glyphicon-chevron-left"></a>
+<a href="<?php echo U('Home/Index/index');?>" id="back" class="glyphicon glyphicon-chevron-left"></a>
 </div>
+<!--javascript:history.go(-1);-->
 <div class="col-md-10">
 <h1 id="blogtitle"><?php echo ($itemName); ?></h1>
 </div>	
