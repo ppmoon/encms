@@ -41,23 +41,38 @@
           </ul><!--nav--><!--slider-->
       </div>
       <div class="col-md-9">
-<table class="table table-hover">
-      <tr>
-        <th>ID</th>
-        <th>标题</th>
-        <th>所属分类</th>
-        <th>发布时间</th>
-        <th>操作</th>
-      </tr>
-    <?php if(is_array($blog)): foreach($blog as $key=>$v): ?><tr>
-			<td><?php echo ($v["id"]); ?></td>
-			<td><?php echo ($v["title"]); ?></td>
-			<td><?php echo ($v["cate"]); ?></td>
-			<td><?php echo (date('y-m-d H:i',$v["time"])); ?></td>
-			<td>[<a href="<?php echo U('Admin/Blog/edit',array('id'=>$v['id']));?>">修改</a>]</td>
-			<td>[<a href="<?php echo U('Admin/Blog/toTrach',array('id'=>$v['id']));?>">删除</a>]</td>
-		</tr><?php endforeach; endif; ?>
-</table>
+<h3>修改密码</h3>
+<form method="post" action="<?php echo U('Admin/Password/changePassword');?>">
+	<table class="table text-left">
+		<tr>
+			<td>旧密码</td>
+			<td><input name="password" type="password"></td>
+		</tr>
+		<tr>
+			<td>新密码</td>
+			<td><input type="password" id="input1"></td>
+		</tr>
+		<tr>
+			<td>重复密码</td>
+			<td><input name="newpassword" type="password" id="input2"></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="修改密码" onclick="check()"></td>
+		</tr>
+	</table>
+	</form>
+	<script>
+		function check(){
+			with(document.all){
+			if(input1.value!=input2.value){
+				alert("两次输入密码不同")
+				input1.value="";
+				input2.value="";
+			}
+			else document.forms[0].submit();
+			}
+		}
+	</script>
 </div><!--content-->
       </div>
     </div><!--center-->

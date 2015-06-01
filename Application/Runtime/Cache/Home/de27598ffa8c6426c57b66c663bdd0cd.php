@@ -50,7 +50,7 @@ $(document).ready(function(){
 </script>
 <div class="row">
 <div class="col-md-2">
-<a href="<?php echo U('Home/Index/index');?>" id="back" class="glyphicon glyphicon-chevron-left"></a>
+<h1><a href="<?php echo U('Home/Index/index');?>" id="back" class="glyphicon glyphicon-chevron-left"></a></h1>
 </div>
 <!--javascript:history.go(-1);-->
 <div class="col-md-10">

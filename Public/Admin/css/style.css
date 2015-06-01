@@ -43,9 +43,10 @@
 /*slider*/
 #slider_nav{
 	background-color: #222;
-	height: 100vh;
+	height:100%;
 	padding: 0px;
 }
+
 #slider_nav a{
 	color: #fff;
 	padding-left: 15px;
@@ -53,4 +54,11 @@
 }
 #slider_nav a:hover{
 	color:#333;
+}
+@media (min-width:990px){
+	#slider_nav{
+	background-color: #222;
+	height:980vh;
+	padding: 0px;
+}
 }

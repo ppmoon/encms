@@ -13,7 +13,7 @@ class IndexController extends Controller {
 		$db=M('cate')->where("id='".$id."'")->select();
 		$cname=$db[0]['name'];
 		$this->assign('cname',$cname);
-        $this->blog=M('blog')->where("cid='".$id."'")->select();
+        $this->blog=M('blog')->where("cid='".$id."'&&del=0")->select();
         $this->display();
 	}
 	//通过文章列表获取文章内容

@@ -1,0 +1,35 @@
+<include file='Common:header'/>
+<include file='Common:nav'/>
+<h3>修改密码</h3>
+<form method="post" action="{:U('Admin/Password/changePassword')}">
+	<table class="table text-left">
+		<tr>
+			<td>旧密码</td>
+			<td><input name="password" type="password"></td>
+		</tr>
+		<tr>
+			<td>新密码</td>
+			<td><input type="password" id="input1"></td>
+		</tr>
+		<tr>
+			<td>重复密码</td>
+			<td><input name="newpassword" type="password" id="input2"></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="修改密码" onclick="check()"></td>
+		</tr>
+	</table>
+	</form>
+	<script>
+		function check(){
+			with(document.all){
+			if(input1.value!=input2.value){
+				alert("两次输入密码不同")
+				input1.value="";
+				input2.value="";
+			}
+			else document.forms[0].submit();
+			}
+		}
+	</script>
+<include file='Common:footer'/>
